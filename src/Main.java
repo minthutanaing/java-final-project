@@ -14,7 +14,7 @@ public class Main {
         
         System.out.print("Enter number of single rooms needed: ");
         int numSingleRooms = scanner.nextInt();
-        if (myRoom.isRoomAvailable("Single", numSingleRooms)) {
+        if (((Room) rRoom).isRoomAvailable("Single", numSingleRooms)) {
             System.out.println(numSingleRooms + " single rooms are available.");
         } else {
             System.out.println("Sorry, not enough single rooms available.");
@@ -22,7 +22,7 @@ public class Main {
         
         System.out.print("Enter number of double rooms needed: ");
         int numDoubleRooms = scanner.nextInt();
-        if (myRoom.isRoomAvailable("Double", numDoubleRooms)) {
+        if (((Room) rRoom).isRoomAvailable("Double", numDoubleRooms)) {
             System.out.println(numDoubleRooms + " double rooms are available.");
         } else {
             System.out.println("Sorry, not enough double rooms available.");

@@ -11,7 +11,7 @@ public class Hotel {
     private double checkInTime;
     private double checkOutTime;*/
 
-    public Hotel (String name, String address, HashMap<String, Integer> rooms){
+    public Hotel (String name, String address){
         this.name = name;
         this.address = address; 
         /*this.contactNum = contactNum; 

@@ -7,7 +7,7 @@ public class Room extends Hotel{
     
     public boolean isRoomAvailable(String roomType, int numRooms){
         HashMap<String, Integer> rooms = getRooms(); 
-        if (rooms.comtainsKey(roomType) && rooms.get(roomType) >= numRooms){
+        if (rooms.containsKey(roomType) && rooms.get(roomType) >= numRooms){
             return true; 
         }
         else {
