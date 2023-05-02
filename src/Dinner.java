@@ -5,4 +5,8 @@ public class Dinner {
     
     public void displayNormalDietMenu() {
     }
+
+    public void displayHalalDietMenu() {
+    }
+
 }

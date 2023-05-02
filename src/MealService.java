@@ -5,7 +5,7 @@ public class MealService {
 
     public void dinnerService() {
         Dinner normalDP = new NormalDietPlan();
-
+        Dinner seafoodDP = new HalalDietPlan();
 
         System.out.println("========================");
         System.out.println("Our Hotel will serve free Buffet Breakfast from 9-12. " + "\nBut you have to book dinner." );
@@ -17,20 +17,14 @@ public class MealService {
             yornchoice = scanner.nextInt();
             if (yornchoice == 1){
                 //please make choices in here
-                System.out.println("Choose your diet plan:" + "\n1) Normal diet" + "\n2) Seafood" + "\n3) Halal foods" + "\n4) Vegan foods");
+                System.out.println("Choose your diet plan:" + "\n1) Normal diet" + "\n2) Halal");
                 int dietchoice = -1; 
                 dietchoice = scanner.nextInt();
                 if (dietchoice == 1){
                     normalDP.displayNormalDietMenu();
                 }
                 else if (dietchoice == 2){
-                    //seafoodDP.displaySeafoodDietMenu();
-                }
-                else if (dietchoice == 3){
-                    //halalDP.displayHalalDietMenu();
-                }
-                else if (dietchoice == 4){
-                    //veganDP.displayVeganDietMenu();
+                    seafoodDP.displayHalalDietMenu();
                 }
                 else {
                     System.out.println("\nPlease only type 1 or 2!");

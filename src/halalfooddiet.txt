@@ -1,0 +1,6 @@
+1. Tom Yum seafood      - 100 baht
+2. Seafood Fried rice   - 100 baht
+3. Nasi Goreng          - 100 baht
+4. Fish and chips       - 100 baht
+5. Chicken Biryani      - 100 baht 
+===enter zero to quit===

@@ -1,12 +1,11 @@
 1. Pad Thai 
-2. Tom Yum 
-3. Som Tum 
-4. Chicken reen Curry
-5. Chicken yello curry 
-6. Chicken red curry 
-7. Phat kra phoung with minced pork 
-8. Phat kra phoung with minced beef 
-9. Thai Omelet with minced pork 
-10. Khao Soi 
-11. Beef noodle soup 
-12. Blood noodle soup 
+2. Chicken reen Curry
+3. Chicken yello curry 
+4. Chicken red curry 
+5. Phat kra phoung with minced pork  
+6. Thai Omelet with minced pork 
+7. Khao Soi 
+8. Blood noodle soup 
+9. Chicken Fried rice 
+10. Pork Fried rice 
+===enter zero to quit===
