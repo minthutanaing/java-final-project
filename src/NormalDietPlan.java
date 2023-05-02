@@ -1,7 +1,7 @@
 import java.io.*; 
 import java.util.Scanner;
 
-public class NormalDietPlan extends Meal{
+public class NormalDietPlan extends Dinner{
     public NormalDietPlan(){
         super("Normal Diet Menu");
     }
