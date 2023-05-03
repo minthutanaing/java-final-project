@@ -77,6 +77,26 @@ public class BookingRoom {
             for (int i = 1; i <= userTotalRoom; i++ ){
                 System.out.print("Choose " + i + " room type: " + "\n1) single" + "\n2)double" + "\n3)suite");
                 int roomType = sc.nextInt();
+                String roomTypeName = "";
+                if(roomType == 1){
+                    roomTypeName = "Single";
+                } else if(roomType == 2){
+                    roomTypeName = "Double";
+                } else if(roomType == 3){
+                    roomTypeName = "Suite";
+                }
+                boolean roomFound = false;
+                for (Room room : rooms) {
+                    if(room.getRoomType().equals(roomTypeName) && room.getRoomAvailability()){
+                        room.setAvailability(false);
+                        System.out.println("Room booked. Room number: " + room.getRoomNum());
+                        roomFound = true;
+                        break;
+                    }
+                }
+                if(!roomFound){
+                    System.out.println("Sorry, no available rooms of this type.");
+                }
             }
             
             /*for (Room room : rooms) {
