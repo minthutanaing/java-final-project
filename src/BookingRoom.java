@@ -13,11 +13,11 @@ public class BookingRoom {
 
     public void userPersonalInfo() {
         try {
-            System.out.print("Welcome to Rose Hotel.");
+            System.out.println("Welcome to Rose Hotel.");
             System.out.print("Please enter your name: ");
             String userName = sc.nextLine();
-            System.out.print("\nPlease enter your phone number: ");
-            String userContactNum = sc.nextLine();
+            System.out.print("Please enter your phone number: ");
+            Long userContactNum = sc.nextLong();
         }
         catch (NumberFormatException e){
             System.out.println("Error: " + e.getMessage());
@@ -69,21 +69,26 @@ public class BookingRoom {
         }
 
         try {
-            System.out.print("\nOur Hotel Check-in and check-out time is from 12 pm to the next day 12 pm. ");
-            System.out.print("\nHow long will you be staying?" + "\nEnter duration (in days); ");
+            System.out.println("\nOur Hotel Check-in and check-out time is from 12 pm to the next day 12 pm. ");
+            System.out.print("How long will you be staying?" + "\nEnter duration (in days); ");
             int durationOfStay = sc.nextInt();
-            System.out.print("\nEnter total numbers of rooms you want: ");
+            System.out.print("Enter total numbers of rooms you want: ");
             int userTotalRoom = sc.nextInt();
+            int totalRoomPrice = 0;
             for (int i = 1; i <= userTotalRoom; i++ ){
-                System.out.print("Choose " + i + " room type: " + "\n1) single" + "\n2)double" + "\n3)suite");
+                System.out.print("Choose " + i + " room type: " + "\n1)single" + "\n2)double" + "\n3)suite");
                 int roomType = sc.nextInt();
                 String roomTypeName = "";
+                int roomPrice = 0;
                 if(roomType == 1){
                     roomTypeName = "Single";
+                    roomPrice = 500;
                 } else if(roomType == 2){
                     roomTypeName = "Double";
+                    roomPrice = 1000;
                 } else if(roomType == 3){
                     roomTypeName = "Suite";
+                    roomPrice = 5000; 
                 }
                 boolean roomFound = false;
                 for (Room room : rooms) {
@@ -97,18 +102,16 @@ public class BookingRoom {
                 if(!roomFound){
                     System.out.println("Sorry, no available rooms of this type.");
                 }
+                else { 
+                    totalRoomPrice += roomPrice * durationOfStay; 
+                }
             }
-            
-            /*for (Room room : rooms) {
-                System.out.println(room.getRoomNum());
-            }*/
+                System.out.println("Total room price: " + totalRoomPrice);
         }
         catch (InputMismatchException e){
             System.out.println("Error: " + e.getMessage());
         }
-        
-        // Check availability of rooms of the chosen type
-        
+
     }
 
 }

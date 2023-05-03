@@ -13,12 +13,6 @@ public class Room {
     public void setRoomType(String roomType) {this.roomType = roomType; }
     public int getRoomNum() {return roomNum;}
     public void setRoomNum(int roomNum) {this.roomNum = roomNum; }
-    public boolean getRoomAvailability() { 
-        return availability;
-    }
-
-    public void setAvailability(boolean availability){
-        this.availability = availability;
-    }
-
+    public boolean getRoomAvailability() { return availability; }
+    public void setAvailability(boolean availability){ this.availability = availability;}
 }
