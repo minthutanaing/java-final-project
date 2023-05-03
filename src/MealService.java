@@ -26,6 +26,7 @@ public class MealService {
                 }
                 else if (dietchoice == 2){
                     seafoodDP.displayHalalDietMenu();
+                    seafoodDP.chooseADish(); 
                 }
                 else {
                     System.out.println("\nPlease only type 1 or 2!");
