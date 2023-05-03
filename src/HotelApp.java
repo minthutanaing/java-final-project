@@ -1,10 +1,10 @@
 import java.util.Scanner; 
 
-public class MainApp {
+public class HotelApp {
     Scanner scanner = new Scanner(System.in);
     public static void main (String[] args){
-        Hotel hotel = new Hotel();
-        //hotel.start();
+        BookingRoom hotel = new BookingRoom();
+        hotel.start();
         MealService ms = new MealService();
         ms.dinnerService();
     }
