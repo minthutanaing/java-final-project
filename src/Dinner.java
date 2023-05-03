@@ -9,4 +9,8 @@ public class Dinner {
     public void displayHalalDietMenu() {
     }
 
+    public void chooseADish(){
+        
+    }
+
 }

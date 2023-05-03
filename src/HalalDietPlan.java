@@ -19,7 +19,4 @@ public class HalalDietPlan extends Dinner{
             System.out.println("Error: " +  e.getMessage());
         }
     }
-
-    
-    
 }

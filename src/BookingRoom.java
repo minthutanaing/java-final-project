@@ -13,10 +13,10 @@ public class BookingRoom {
 
     public void userPersonalInfo() {
         try {
-            System.out.println("Welcome to Rose Hotel.");
-            System.out.println("Please enter your name: ");
+            System.out.print("Welcome to Rose Hotel.");
+            System.out.print("Please enter your name: ");
             String userName = sc.nextLine();
-            System.out.println("Please enter your phone number: ");
+            System.out.print("\nPlease enter your phone number: ");
             String userContactNum = sc.nextLine();
         }
         catch (NumberFormatException e){
@@ -69,10 +69,10 @@ public class BookingRoom {
         }
 
         try {
-            System.out.println("\nOur Hotel Check-in and check-out time is from 12 pm to the next day 12 pm. ");
-            System.out.println("\nHow long will you be staying?" + "\nEnter duration (in days); ");
+            System.out.print("\nOur Hotel Check-in and check-out time is from 12 pm to the next day 12 pm. ");
+            System.out.print("\nHow long will you be staying?" + "\nEnter duration (in days); ");
             int durationOfStay = sc.nextInt();
-            System.out.println("\nEnter total numbers of rooms you want: ");
+            System.out.print("\nEnter total numbers of rooms you want: ");
             int userTotalRoom = sc.nextInt();
             for (int i = 1; i <= userTotalRoom; i++ ){
                 System.out.print("Choose " + i + " room type: " + "\n1) single" + "\n2)double" + "\n3)suite");
@@ -108,7 +108,7 @@ public class BookingRoom {
         }
         
         // Check availability of rooms of the chosen type
-
+        
     }
 
 }

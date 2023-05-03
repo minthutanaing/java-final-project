@@ -7,7 +7,7 @@ public class MealService {
         Dinner normalDP = new NormalDietPlan();
         Dinner seafoodDP = new HalalDietPlan();
 
-        System.out.println("========================");
+        System.out.println("======================== Meal Service ========================");
         System.out.println("Our Hotel will serve free Buffet Breakfast from 9-12. " + "\nBut you have to book dinner." );
         
         int yornchoice = -1;
@@ -22,6 +22,7 @@ public class MealService {
                 dietchoice = scanner.nextInt();
                 if (dietchoice == 1){
                     normalDP.displayNormalDietMenu();
+                    normalDP.chooseADish(); 
                 }
                 else if (dietchoice == 2){
                     seafoodDP.displayHalalDietMenu();
@@ -40,7 +41,4 @@ public class MealService {
         }
     }
 
-    public void chooseMealOption(){
-        
-    }
 }
