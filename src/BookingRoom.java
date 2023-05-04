@@ -93,7 +93,7 @@ public class BookingRoom {
                 userTotalRoom = sc.nextInt();
                 totalRoomPrice = 0;
                 for (int i = 1; i <= userTotalRoom; i++ ){
-                    System.out.print("Choose " + i + " room type: " + "\n1)single" + "\n2)double" + "\n3)suite ");
+                    System.out.print("\nChoose " + i + " room type: " + "\n1) single (500 Baht)" + "\n2) double (1000 Baht)" + "\n3) suite (5000 Baht) ");
                     System.out.println("\nEnter 1, 2 or 3 ...");
                     int roomType = sc.nextInt();
                     String roomTypeName = "";
