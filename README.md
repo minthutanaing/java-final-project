@@ -3,7 +3,7 @@
 
 The Rose Hotel is not a popular hotel but it is a soon-to-be popular one. 
 
-It offers a lot of rooms to be reserved for the cutomers. The customers can reserve the rooms to prepare for the trip conveniently through this system. They can book as many as they need as the Hotel offers plenty of available rooms. It offers 20 single-room, 20 double-room and 10 suite-room at the 1st floor. At the 2nd floor, it provides 15 single-room, 15 double-room and 15 suite-room while it offers 25 single-room, 15 double-room and 10 suite-room at the 3rd floor. Moreover, the Hotel also provides free Wifi for the customers so that the customers can easily accessible what they need. 
+It offers a lot of rooms to be reserved for the cutomers. The customers can reserve the rooms to prepare for the trip conveniently through this system. They can book as many as they need as the Hotel offers plenty of available rooms. It offers 20 single-room, 20 double-room and 10 suite-room at the 1st floor. At the 2nd floor, it provides 15 single-room, 15 double-room and 15 suite-room while it offers 25 single-room, 15 double-room and 10 suite-room at the 3rd floor. 
 
 Additionally, the Rose Hotel supplies Buffet for the customers as a breakfast. For the dinner, customers can order what they enjoy. The hotel provides two options for the meal. One is Normal Diet Plan and the another one is Halal Diet Plan. Customers can choose what they perfer. It also sets an afforable price for all the customers. 
 
