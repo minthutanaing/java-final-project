@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class HalalDietPlan extends Dinner{
     Scanner scanner = new Scanner(System.in);
 
-    public HalalDietPlan() {
-        super("Seafood Diet");
-    }
-
     public void displayHalalDietMenu() {
         File file = new File ("src/halalfooddiet.txt");
         try (Scanner sc = new Scanner(file)){
@@ -25,7 +21,7 @@ public class HalalDietPlan extends Dinner{
     public void chooseADish() { 
         ArrayList<String> chosenDishes = new ArrayList<>();
         int choice = -1; 
-        int foodPrice = 0; 
+        foodPrice = 0; 
         while (choice != 0){
             System.out.println("Enter 1 to 10:");
             choice = scanner.nextInt(); 

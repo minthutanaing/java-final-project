@@ -31,7 +31,7 @@ public class MealService {
                     seafoodDP.chooseADish(); 
                 }
                 else {
-                    System.out.println("\nPlease only type 1 or 2!");
+                    System.out.println("\nPlease only select 1 or 2!");
                 }
             }
             else if (yornchoice == 2){
@@ -43,5 +43,4 @@ public class MealService {
             }
         }
     }
-
 }

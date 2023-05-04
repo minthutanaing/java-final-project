@@ -1,16 +1,10 @@
 public class Dinner {
     protected String dietPlanName;
-
-    public Dinner (String dietPlanName){this.dietPlanName = dietPlanName; }
+    protected int foodPrice;
     
-    public void displayNormalDietMenu() {
-    }
-
-    public void displayHalalDietMenu() {
-    }
-
-    public void chooseADish(){
-        
-    }
+    public void displayNormalDietMenu() {}
+    public void displayHalalDietMenu() {}
+    public void chooseADish(){  }
+    
 
 }

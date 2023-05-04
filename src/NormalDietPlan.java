@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class NormalDietPlan extends Dinner{
     Scanner scanner = new Scanner(System.in);
 
-    public NormalDietPlan(){
-        super("Normal Diet Menu");
-    }
-
     public void displayNormalDietMenu() {
         File file = new File ("src/normaldiet.txt");
         try (Scanner sc = new Scanner(file)){
